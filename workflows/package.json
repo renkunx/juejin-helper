@@ -6,13 +6,15 @@
   "author": "Derek Li",
   "scripts": {
     "checkin": "ts-node checkin.js",
-    "seagold": "ts-node seagold.js"
+    "seagold": "ts-node seagold.js",
+    "du": "ts-node du.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
     "fast-astar": "^1.0.6",
     "juejin-helper": "^1.7.2",
     "nodemailer": "^6.7.0",
+    "qs": "^6.11.1",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
