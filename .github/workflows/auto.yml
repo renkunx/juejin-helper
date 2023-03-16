@@ -29,6 +29,7 @@ jobs:
           cd workflows
           yarn
           yarn checkin
+          yarn du
   SeaGold:
     needs: CheckIn
     runs-on: ubuntu-latest
