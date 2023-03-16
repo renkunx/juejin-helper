@@ -38,5 +38,8 @@ module.exports = {
   /**
    * 飞书配置
    */
-  FEISHU_WEBHOOK: env.FEISHU_WEBHOOK
+  FEISHU_WEBHOOK: env.FEISHU_WEBHOOK,
+  // 蜗牛阅读 token & cookie
+  DU_TOKEN: env.DU_TOKEN,
+  DU_COOKIE: env.DU_COOKIE,
 };
