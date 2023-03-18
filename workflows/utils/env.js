@@ -41,5 +41,5 @@ module.exports = {
   FEISHU_WEBHOOK: env.FEISHU_WEBHOOK,
   // 蜗牛阅读 token & cookie
   DU_TOKEN: env.DU_TOKEN,
-  DU_COOKIE: env.DU_COOKIE,
+  DU_COOKIE: env.DU_COOKIE
 };
