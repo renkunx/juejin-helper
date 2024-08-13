@@ -69,8 +69,8 @@ class DipLuckyTask extends Task {
     //   }
     // }
 
-    const luckyResult = await growth.getMyLucky();
-    this.luckyValue = luckyResult.total_value;
+    // const luckyResult = await growth.getMyLucky();
+    this.luckyValue = 0;
   }
 }
 
