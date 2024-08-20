@@ -32,5 +32,14 @@ module.exports = {
   WEIXIN_WEBHOOK: env.WEIXIN_WEBHOOK,
   // 蜗牛阅读 token & cookie
   DU_TOKEN: env.DU_TOKEN,
-  DU_COOKIE: env.DU_COOKIE
+  DU_COOKIE: env.DU_COOKIE,
+  /**
+   * 数据库配置
+   * host, port, user, password, database, waitForConnections, connectionLimit, queueLimit
+   */
+  DB_HOST: env.DB_HOST,
+  DB_PORT: env.DB_PORT,
+  DB_USER: env.DB_USER,
+  DB_PASSWORD: env.DB_PASSWORD,
+  DB_DATABASE: env.DB_DATABASE,
 };
