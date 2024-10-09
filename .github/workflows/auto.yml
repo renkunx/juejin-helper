@@ -26,6 +26,8 @@ env:
   DB_USER: ${{ secrets.DB_USER }}
   DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
   DB_DATABASE: ${{ secrets.DB_DATABASE }}
+  JIAOTONG_COOKIE: ${{ secrets.JIAOTONG_COOKIE }}
+  JIAOTONG_TOKEN: ${{ secrets.JIAOTONG_TOKEN }}
 jobs:
   CheckIn:
     runs-on: ubuntu-latest
@@ -39,6 +41,7 @@ jobs:
           yarn checkin
           yarn du
           yarn masdb
+          yarn jiaotong
   # SeaGold:
   #   needs: CheckIn
   #   runs-on: ubuntu-latest
