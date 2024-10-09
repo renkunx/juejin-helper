@@ -30,6 +30,15 @@ module.exports = {
    * https://developer.work.weixin.qq.com/document/path/91770
    */
   WEIXIN_WEBHOOK: env.WEIXIN_WEBHOOK,
+  /**
+   * server酱推送key
+   * https://sct.ftqq.com/sendkey
+   */
+  SERVERPUSHKEY: env.SERVERPUSHKEY,
+  /**
+   * 飞书配置
+   */
+  FEISHU_WEBHOOK: env.FEISHU_WEBHOOK,
   // 蜗牛阅读 token & cookie
   DU_TOKEN: env.DU_TOKEN,
   DU_COOKIE: env.DU_COOKIE,
