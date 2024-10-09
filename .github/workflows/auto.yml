@@ -41,7 +41,7 @@ jobs:
           yarn checkin
           yarn du
           yarn masdb
-          yarn jiaotong
+        # yarn jiaotong
   # SeaGold:
   #   needs: CheckIn
   #   runs-on: ubuntu-latest
