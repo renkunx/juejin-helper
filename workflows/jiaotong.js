@@ -1,5 +1,5 @@
 /**
- * 蜗牛阅读自动签到
+ * 交通银行信用卡自动签到
  */
 const axios = require('axios');
 const qs = require('qs');
@@ -42,7 +42,7 @@ class Jiaotong {
 }
 
 async function run(args) {
-  const jiaotong = new Jiaotong(env.JD_TOKEN, env.JD_COOKIE);
+  const jiaotong = new Jiaotong(env.JIAOTONG_TOKEN, env.JIAOTONG_COOKIE);
   await utils.wait(utils.randomRangeNumber(1000, 5000)); // 初始等待1-5s
   jiaotong.sign();
 }

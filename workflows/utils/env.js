@@ -51,4 +51,10 @@ module.exports = {
   DB_USER: env.DB_USER,
   DB_PASSWORD: env.DB_PASSWORD,
   DB_DATABASE: env.DB_DATABASE,
+  /**
+   * 交通银行配置
+   * token, cookie
+   */
+  JIAOTONG_COOKIE: env.JIAOTONG_COOKIE,
+  JIAOTONG_TOKEN: env.JIAOTONG_TOKEN,
 };
