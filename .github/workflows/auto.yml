@@ -38,9 +38,9 @@ jobs:
         run: |
           cd workflows
           yarn
-          yarn checkin
           yarn du
           yarn masdb
+        # yarn checkin
         # yarn jiaotong
   # SeaGold:
   #   needs: CheckIn
